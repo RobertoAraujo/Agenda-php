@@ -1,8 +1,8 @@
 <center>
 	<h1> Agenda de contatos - pesquisa</h1></center>
-	<!-- Agenda de contatos desenvolvida por roberto -->
+	<!-- Agenda de contatos desenvolvida por Roberto -->
 	<font size="verdana">
-		<!-- Agenda de contatos desenvolvida por roberto -->
+		<!-- Agenda de contatos desenvolvida por Roberto -->
 		<?php
 		include "config.php";
 		?>

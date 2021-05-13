@@ -3,7 +3,6 @@
 
   $sql = "DELETE FROM agenda WHERE cod_contato = $_REQUEST[contato];";
 
-
   if (mysqli_query($con, $sql) === TRUE) {
     //escrever aqui a mensagem de ok do delete.
     echo "<script>alert('Usuário Excluído com sucesso');</script>";

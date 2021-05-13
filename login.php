@@ -36,11 +36,11 @@ include "config.php";
       <input type="text" id="inputEmail"  name="login"class="form-control" placeholder="login" required autofocus>
       <label for="inputPassword" class="sr-only">senha</label>
       <input type="password" id="inputPassword" name="senha" class="form-control" placeholder="senha" required>
-<!--         <div class="checkbox">
- -->          <!-- <label>
-            <input type="checkbox" value="remember-me"> Remember me
+      <!-- <div class="checkbox"> -->          
+          <!-- <label>
+            <input type="checkbox" value="remember-me">Lembra-me
           </label> -->
-          <!-- </div> -->
+      <!-- </div> -->
           <button class="btn btn-lg btn-primary btn-block" name="entrar" type="submit">Entrar</button>
           <div class="alert alert-danger error">
             <?php
@@ -56,7 +56,7 @@ include "config.php";
 
     <!-- Bootstrap core JavaScript
       ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
+      <!-- Colocado no final do documento para que as páginas carreguem mais rápido . -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>

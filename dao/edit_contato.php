@@ -28,8 +28,7 @@ $query = mysqli_query($con, $sql);
 //Verifico se o registro foi inserido com sucesso
 if ($query == true) {
     echo "<script>alert('Usuário Editado com sucesso');</script>";
-    echo "<META http-equiv='refresh' content='1;URL=http://".$site."index.php?page=editar_contato&contato=$_POST[cod_contato]'> ";
-
+    echo "<META http-equiv='refresh' content='1;URL=http://".$site."index.php?page=editar_contato&contato=$_POST[cod_contato]'> ";=
 
   }
 else {

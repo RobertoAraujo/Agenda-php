@@ -10,11 +10,11 @@
       <input type="email" class="form-control" name="email" placeholder="exemplo@exemplo.com.br" required>
     </div>
     <div class="form-group">
-      <label>Telefone</label>
+      <label>Telefone</label><!--mascara aqui para telefone -->
       <input type="tel" class="form-control" name="telefone" pattern="\([0-9]{2}\) [0-9]{4}-[0-9]{4}$" placeholder="(00) 0000-0000">
     </div>
     <div class="form-group">
-      <label>Celular</label>
+      <label>Celular</label><!--mascara aqui para telefone -->
       <input type="tel" class="form-control" name="celular" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}$" placeholder="(00) 00000-0000" required>
     </div>
     
@@ -60,8 +60,6 @@
                         <label>Observações</label>
                         <textarea type="textarea" class="form-control" name="observacao" placeholder="Observações"rows="3"></textarea>
                       </div>
-                      
-                      
                       
                       <button type="submit" class="btn btn-primary">Cadastrar</button>
                       <button type="reset" class="btn btn-primary">Limpar</button>

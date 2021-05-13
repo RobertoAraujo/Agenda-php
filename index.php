@@ -21,7 +21,7 @@ $logado = $_SESSION['login'];
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <!-- As 3 meta tags acima * devem * vir primeiro na cabeça; qualquer outro conteúdo principal deve vir * após * essas tags -->
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -89,7 +89,7 @@ include "config.php";
 
     <div class="container">
 
-      <!-- Main component for a primary marketing message or call to action -->
+      <!-- Componente principal para uma mensagem de marketing primária ou apelo à ação -->
       <?php 
       $page='';
       if( empty($_REQUEST['page'])){  
@@ -112,7 +112,7 @@ include "config.php";
       ?>
     <!-- Bootstrap core JavaScript
       ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
+      <!-- Colocado no final do documento para que as páginas carreguem mais rápido -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>
