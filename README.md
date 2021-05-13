@@ -1,2 +1,2 @@
-# Agenda Telefônica Didática (PHP + MySQL)
+# Agenda Telefônica (PHP + MySQL)
 
