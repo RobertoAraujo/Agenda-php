@@ -1,2 +1,0 @@
-# Agenda Telefônica (PHP + MySQL)
-
