@@ -53,7 +53,6 @@ include "config.php";
 
       </div> <!-- /container -->
 
-
     <!-- Bootstrap core JavaScript
       ================================================== -->
       <!-- Colocado no final do documento para que as páginas carreguem mais rápido . -->
