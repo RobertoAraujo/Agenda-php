@@ -54,6 +54,7 @@ function($) {
         return false // explicit for ie8 (  ._.)
     }
 
+
     // http://blog.alexmaccaw.com/css-transitions
     $.fn.emulateTransitionEnd = function(duration) {
         var called = false
@@ -1960,8 +1961,7 @@ function($) {
 
                 return ($href &&
                     $href.length &&
-                    $href.is(':visible') &&
-                    [
+                    $href.is(':visible') && [
                         [$href[offsetMethod]().top + offsetBase, href]
                     ]) || null
             })
