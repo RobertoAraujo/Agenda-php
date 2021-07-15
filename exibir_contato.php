@@ -1,16 +1,12 @@
 <?php
 $inicial= $_REQUEST['contato'];
-
 $busca = mysqli_query($con, "select * from agenda where cod_contato = '$inicial'" ) or trigger_error('Erro ao executar consutla. Detalhes = ' . mysqli_error());
 $dados = mysqli_fetch_array($busca);
 
 ?>
 
-
 <div class="row" >
-
   <form class="form-horizontal"  >
-
     <div class="form-group">
       <label>Código</label>
       <input type="text" class="form-control" id="disabledInput" name="cod_contato" value="<?php echo $dados['cod_contato']; ?>" autofocus required disabled>

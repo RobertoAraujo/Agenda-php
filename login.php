@@ -16,8 +16,7 @@
 
   <!-- CSS LOGIN -->
   <link href="css/login.css?v2=<?php echo time();?>" rel="stylesheet">
-
-  
+ 
 </head>
 <?php
 include "config.php";
@@ -53,9 +52,7 @@ include "config.php";
 
       </div> <!-- /container -->
 
-    <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Colocado no final do documento para que as páginas carreguem mais rápido . -->
+   
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>

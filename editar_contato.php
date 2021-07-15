@@ -2,13 +2,9 @@
 $inicial= $_REQUEST['contato'];
 $busca = mysqli_query($con, "select * from agenda where cod_contato = '$inicial'" ) or trigger_error('Erro ao executar consutla. Detalhes = ' . mysqli_error());
 $dados = mysqli_fetch_array($busca);
-
 ?>
-
 <div class="row">
-
   <form class="form-horizontal" name="agenda" action="dao/edit_contato.php" method="post" >
-
     <div class="form-group">
       <label>Código</label>
       <input type="text" class="form-control" name="cod_contato" value="<?php echo $dados['cod_contato']; ?>" autofocus required>
@@ -71,9 +67,7 @@ $dados = mysqli_fetch_array($busca);
                       <div class="form-group">
                         <label>Observações</label>
                         <textarea type="textarea" class="form-control" name="observacao" placeholder="Observações" rows="3"><?php echo $dados['observacao']; ?></textarea>
-                      </div>
-                      
-                      
+                      </div>  
                       <button type="submit" class="btn btn-primary">Cadastrar</button>
                       <button type="reset" class="btn btn-primary">Limpar</button>
 

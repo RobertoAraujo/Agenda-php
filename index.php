@@ -1,10 +1,5 @@
 <?php  
-/* esse bloco de código em php verifica se existe a sessão, pois o usuário pode 
-simplesmente não fazer o login e digitar na barra de endereço do seu navegador 
-o caminho para a página principal do site (sistema), burlando assim a obrigação 
-de fazer um login, com isso se ele não estiver feito o login não será 
-criado a session, então ao verificar que a session não existe a página 
-redireciona o mesmo para a index.php. */
+
 session_start();
 if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == true))
 {
@@ -21,7 +16,7 @@ $logado = $_SESSION['login'];
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- As 3 meta tags acima * devem * vir primeiro na cabeça; qualquer outro conteúdo principal deve vir * após * essas tags -->
+  
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -110,9 +105,7 @@ include "config.php";
       mysqli_close($con);
 
       ?>
-    <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Colocado no final do documento para que as páginas carreguem mais rápido -->
+    
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>

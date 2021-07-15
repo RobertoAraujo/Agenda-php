@@ -6,6 +6,5 @@ if($_GET['sair'] == 'logout'){
  unset ( $_SESSION['senha']);
  session_destroy();
  header("Location: login.php"); 
-
 }
 ?>
