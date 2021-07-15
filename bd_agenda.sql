@@ -47,9 +47,7 @@ CREATE TABLE `agenda` (
 --
 
 INSERT INTO `agenda` (`cod_contato`, `nome`, `email`, `telefone`, `datanascimento`, `celular`, `rua`, `numero`, `bairro`, `cidade`, `estado`, `site`, `observacao`) VALUES
-(1, 'TÃ¡ssio GonÃ§alves', 'tassiogoncalvesg@gmail.com', '', '0000-00-00', '(75) 98838-0830', 'Rua da Paz, 21', 0, 'BTN', 'Paulo Afonso', 'Bahia', '', ''),
-(7, 'USER TEST', 'USER@TEST.COM', '', '0000-00-00', '', '', 0, '', '', '', '', ''),
-(8, 'Teste PHP 7', 'teste@teste.com.br', '', '0000-00-00', '(75) 9999-0000', '', 0, '', '', '', '', 'PHP 7.1.8 (cli) (built: Aug 17 2017 11:06:55) ( NTS )');
+(1, 'Roberto Moraes', 'endriosrobert@gmail.com', '', '0000-00-00', '(68) 99999-0830', 'Rua da ladeira, 21', 0, 'BTN', 'Paulo finfon', 'Acre', '', '');
 
 -- --------------------------------------------------------
 
