@@ -30,6 +30,8 @@ VALUES (
 '".$_POST['observacao']."'
 )";
 
+
+//te
 //echo $sql;
 //Executo a minha query
 //echo $sql;
