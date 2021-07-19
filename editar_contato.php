@@ -59,7 +59,6 @@ $dados = mysqli_fetch_array($busca);
                         <option value="Sergipe">
                         </datalist>  
                       </div>
-
                       <div class="form-group">
                         <label>Site</label>
                         <input type="url" class="form-control" name="site" placeholder="Site com http://" value="<?php echo $dados['site']; ?>" >
