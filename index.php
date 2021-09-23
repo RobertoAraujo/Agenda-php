@@ -30,12 +30,8 @@ $logado = $_SESSION['login'];
 </head>
 <?php
 include "config.php";
-
-
 ?>
-
 <body>
-
   <!-- Static navbar -->
   <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
