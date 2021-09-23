@@ -30,7 +30,8 @@ include "config.php";
     <form class="form-signin" method="POST" action="dao/verifica_login.php">
       <h2 class="form-signin-heading" align="center">Acesso Restrito</h2>
       <label for="inputEmail" class="sr-only">login</label>
-      <input type="text" id="inputEmail"  name="login"class="form-control" placeholder="login" required autofocus>
+      <input type="text" id="inputEmail"  name="login"class="form-control" placeholder="Usuario " required autofocus>
+      <br>
       <label for="inputPassword" class="sr-only">senha</label>
       <input type="password" id="inputPassword" name="senha" class="form-control" placeholder="senha" required>
       <!-- <div class="checkbox"> -->          
