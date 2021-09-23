@@ -22,9 +22,7 @@
 include "config.php";
 
 ?>
-
 <body>
-
   <div class="container">
     <div align="center">
       <img src="imagens/cadeado.png" align="center">
