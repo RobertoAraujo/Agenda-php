@@ -68,9 +68,9 @@ include "config.php";
             <form class="navbar-form navbar-left" role="search" name="busca" action="index.php">
               <div class="form-group">
                 <input type="hidden" name="page" value="listar_contatos" />          
-                <input type="text" name="contato" class="form-control" placeholder="Buscar (Nome ou código)">
+                <input type="text" name="contato" class="form-control" placeholder="Buscar ">
               </div>
-              <button type="submit" class="btn btn-default">Buscar</button>
+              <button type="submit" class="btn btn-success"><b> Buscar </b></button>
             </form>
           </ul>
           
@@ -88,7 +88,7 @@ include "config.php";
         ?>
         <div class="jumbotron">
           <h2><?php echo "Bem vindo(a) ".$logado ?> - Agenda Telefônica!</h2>
-          <p>Aqui você cadastra os seus contatos e pode realizar buscas a qualquer momento e em qualquer lugar!</p>
+          <p> </p>
         </div>
         <?php }else{
           $pagina = $_REQUEST['page'];

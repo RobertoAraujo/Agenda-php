@@ -9,12 +9,12 @@
       <input type="email" class="form-control" name="email" placeholder="exemplo@exemplo.com.br" required>
     </div>
     <div class="form-group">
-      <label>Telefone</label><!--mascara aqui para telefone -->
-      <input type="tel" class="form-control" name="telefone" pattern="\([0-9]{2}\) [0-9]{4}-[0-9]{4}$" placeholder="(00) 0000-0000">
+      <label>Telefone</label><!--mascara aqui para telefone   pattern="\([0-9]{2}\) [0-9]{4}-[0-9]{4}$"-->
+      <input type="tel" class="form-control" name="telefone"  placeholder="(00) 0000-0000">
     </div>
     <div class="form-group">
       <label>Celular</label><!--mascara aqui para telefone -->
-      <input type="tel" class="form-control" name="celular" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}$" placeholder="(00) 00000-0000" required>
+      <input type="tel" class="form-control" name="celular"  placeholder="(00) 00000-0000" required>
     </div>
     
     <div class="form-group">
@@ -53,7 +53,7 @@
 
                       <div class="form-group">
                         <label>Site</label>
-                        <input type="url" class="form-control" name="site" placeholder="Site com http://">
+                        <input type="text" class="form-control" name="site" placeholder="Site com http://">
                       </div>
                       <div class="form-group">
                         <label>Observações</label>
