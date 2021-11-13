@@ -2,7 +2,6 @@
 //nome do site, se utilizar algum nome ex: 
 //"localhost" ou algum DNS personalizado insita também o http://aqui tem um ip do seu site
 $site = '127.0.0.1/Agenda-php/';
-
 //nome do banco de dados
 $nome_banco = "agendaaps";
 
